@@ -58,7 +58,7 @@ class Car {
             return false;
         } else if(!(otherObject instanceof Car)) {
             return false;
-        } else {
+        } else {    // cast?
             Car anotherCar = (Car) otherObject;     // Converting otherObject to "Car"
             boolean isCar =
                     this.modelName.equals(anotherCar.getModelName()) &&
